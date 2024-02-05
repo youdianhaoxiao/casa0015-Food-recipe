@@ -1,8 +1,8 @@
-# FlavorFuse
+# FlavorFuse App
 The app is designed to provide personalized recipe suggestions based on the ingredients and tools users have. Users can scroll to access the top five most popular and highest-rated recipes on the main screen. Additionally, the app includes a search feature where users can look for specific recipes, view detailed ingredient quantities, and step-by-step instructions.
 
 
-## Use this README File 
+## Features
 
 Use this section to show us what your Mobile App is about.   Include a Screenshot to the App, link to the various frameworks you've used. Include your presentation video here that shows off your Mobile App.   Emojis are also fun to include 📱 😄
 
