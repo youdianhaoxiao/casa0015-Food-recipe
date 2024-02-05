@@ -1,7 +1,6 @@
 # FlavorFuse
+The app is designed to provide personalized recipe suggestions based on the ingredients and tools users have. Users can scroll to access the top five most popular and highest-rated recipes on the main screen. Additionally, the app includes a search feature where users can look for specific recipes, view detailed ingredient quantities, and step-by-step instructions.
 
-This is the Final assessment template for CASA0014 - Please use this template and edit the relevant sections to personalise.
-This section has a short introduction to what the application is
 
 ## Use this README File 
 
