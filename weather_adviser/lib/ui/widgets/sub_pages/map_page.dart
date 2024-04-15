@@ -16,7 +16,7 @@ class MapPage extends StatelessWidget {
         title: const Text('Map'),
       ),
       body: Center(
-        child: Text('map'),
+        child: Text('abcccss'),
       ),
     );
   }
