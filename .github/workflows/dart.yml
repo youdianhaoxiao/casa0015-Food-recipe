@@ -1,0 +1,79 @@
+name: Flutter Build and Upload Android APK
+
+on:
+  push:                 
+    branches: [ main ]
+  workflow_dispatch:    
+    inputs:
+      version:
+        description: 'Version'
+        required: true
+
+defaults:  
+  run:
+    working-directory: /Users/lissie/Desktop/weather_adviser
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up JDK
+        uses: actions/setup-java@v3
+        with:
+          java-version: '11'
+          distribution: microsoft
+
+      - name: Install yq
+        uses: mikefarah/yq@v4.42.1
+
+      - name: Get pubspec version for auto trigger
+        if: ${{ github.event_name == 'push' }}
+        id: get_flutter_app_version
+        run: |
+          VERSION=$(yq e '.version' pubspec.yaml | grep -Eo '[0-9]+\.[0-9]+\.[0-9]+')
+          echo "TAG_VERSION=$VERSION" >> $GITHUB_ENV
+
+      - name: Create git tag for auto trigger
+        if: ${{ github.event_name == 'push' }}
+        run: |
+          git tag ${{ env.TAG_VERSION }}
+          git push origin ${{ env.TAG_VERSION }}
+
+      - name: Install Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          channel: 'main'
+
+      - name: Get Flutter dependencies
+        run: flutter pub get
+
+      - name: Build APK Release
+        run: flutter build apk --release
+
+      - name: Build an AppBundle
+        run: flutter build appbundle --release
+
+      - name: Save APK to Artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: flutter-apk
+          path: build/app/outputs/flutter-apk/*.apk
+
+      - name: Save APPBUNDLE to Artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          name: flutter-appbundle
+          path: build/app/outputs/bundle/release/*.aab
+
+      - name: Create Github Release for auto trigger
+        if: ${{ github.event_name == 'push' }}
+        uses: ncipollo/release-action@v1
+        with:
+          artifacts: "build/app/outputs/bundle/release/*.aab,build/app/outputs/flutter-apk/*.apk"
+          tag: ${{ env.TAG_VERSION }}
