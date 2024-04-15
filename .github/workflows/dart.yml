@@ -11,7 +11,7 @@ on:
 
 defaults:  
   run:
-    working-directory: /Users/lissie/Documents/GitHub/casa0015-WeatherAdviser/weather_adviser
+    working-directory: ./weather_adviser
 
 jobs:
   build:
