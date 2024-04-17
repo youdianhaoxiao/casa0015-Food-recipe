@@ -39,6 +39,11 @@ As the name suggests, the app is a visualized, high-precision, intelligent weath
 <img width="400" alt="image" src="https://github.com/youdianhaoxiao/casa0015-WeatherAdviser/blob/main/screenshot/cloud.png"> <img width="400" alt="image" src="https://github.com/youdianhaoxiao/casa0015-WeatherAdviser/blob/main/screenshot/pressure.png"> 
 <img width="400" alt="image" src="https://github.com/youdianhaoxiao/casa0015-WeatherAdviser/blob/main/screenshot/temp.png"> 
 
+## Demo
+
+
+https://github.com/youdianhaoxiao/casa0015-WeatherAdviser/assets/146217421/04963b5c-7786-42af-bb5e-ec122378731a
+
 
 
 ## Get Started
