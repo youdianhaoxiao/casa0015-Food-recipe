@@ -51,7 +51,7 @@ As the name suggests, the app is a visualized, high-precision, intelligent weath
 
 ```sh
 $ git clone https://github.com/Naomi1122/casa0015-flutter-weather-app.git
-$ cd weatherAdviser/
+$ cd weather_Adviser/
 ```
 #### 3. Add API Keys
 1. https://www.weatherapi.com/
