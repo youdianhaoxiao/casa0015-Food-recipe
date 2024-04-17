@@ -1,4 +1,4 @@
-# 👚ClimaCloset App
+# 👔ClimaCloset App
 As the name suggests, the app is a visualized, high-precision, intelligent weather APP. The most highlight of the app is designed to provide clothes suggestions based on the current and 3-hour forecast weather.
 
 
