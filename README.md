@@ -50,8 +50,8 @@ As the name suggests, the app is a visualized, high-precision, intelligent weath
 #### 2. Clone the repo
 
 ```sh
-$ git clone https://github.com/Naomi1122/casa0015-flutter-weather-app.git
-$ cd weathet_app-master/
+[$ git clone https://github.com/Naomi1122/casa0015-flutter-weather-app.git](https://github.com/youdianhaoxiao/casa0015-WeatherAdviser.git)
+[$ cd weatherAdviser/
 ```
 #### 3. Add API Keys
 1. https://www.weatherapi.com/
@@ -71,7 +71,7 @@ ucfnega0@ucl.ac.uk
 
 ## License
 
-    Copyright (c) 2023 Jingqi Cheng
+    Copyright (c) 2024 Ertong Gao
     
     Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
     
