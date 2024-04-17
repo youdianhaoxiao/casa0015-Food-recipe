@@ -26,17 +26,18 @@ As the name suggests, the app is a visualized, high-precision, intelligent weath
 ### Main Screen
 
 #### 🌆City information widget
-<img width="400" alt="image" src="https://github.com/Naomi1122/casa0015-flutter-weather-app/blob/main/img/l1.png"> <img width="400" alt="image" src="https://github.com/Naomi1122/casa0015-flutter-weather-app/blob/main/img/l2.png">
+<img width="400" alt="image" src="https://github.com/youdianhaoxiao/casa0015-WeatherAdviser/blob/main/screenshot/main1.png">
 
 #### ☁️Hourly Weather & Air Quality of the day & 3-day daily forecast
-
-
-
+<img width="400" alt="image" src="https://github.com/youdianhaoxiao/casa0015-WeatherAdviser/blob/main/screenshot/main2.png"> 
 
 ### Clothes Adiviser
+<img width="400" alt="image" src="https://github.com/youdianhaoxiao/casa0015-WeatherAdviser/blob/main/screenshot/dress1.png"> <img width="400" alt="image" src="https://github.com/youdianhaoxiao/casa0015-WeatherAdviser/blob/main/screenshot/dress2.png"> 
 
 ### 🗺️Weather Map
-
+<img width="400" alt="image" src="https://github.com/youdianhaoxiao/casa0015-WeatherAdviser/blob/main/screenshot/preci.png"> <img width="400" alt="image" src="https://github.com/youdianhaoxiao/casa0015-WeatherAdviser/blob/main/screenshot/wind.png"> 
+<img width="400" alt="image" src="https://github.com/youdianhaoxiao/casa0015-WeatherAdviser/blob/main/screenshot/cloud.png"> <img width="400" alt="image" src="https://github.com/youdianhaoxiao/casa0015-WeatherAdviser/blob/main/screenshot/pressure.png"> 
+<img width="400" alt="image" src="https://github.com/youdianhaoxiao/casa0015-WeatherAdviser/blob/main/screenshot/temp.png"> 
 
 ## Demo:
 
