@@ -26,7 +26,7 @@ As the name suggests, the app is a visualized, high-precision, intelligent weath
 ### Main Screen
 
 #### 🌆City information widget
-
+<img width="400" alt="image" src="https://github.com/Naomi1122/casa0015-flutter-weather-app/blob/main/img/l1.png"> <img width="400" alt="image" src="https://github.com/Naomi1122/casa0015-flutter-weather-app/blob/main/img/l2.png">
 
 #### ☁️Hourly Weather & Air Quality of the day & 3-day daily forecast
 
