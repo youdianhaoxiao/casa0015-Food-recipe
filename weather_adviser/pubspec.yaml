@@ -44,23 +44,24 @@ dependencies:
 
 
 flutter_icons:
-    android: "launcher_icon"
+    # android: "launcher_icon"
+    android: true
     ios: true # can specify file name here e.g. "My-Launcher-Icon"
-    image_path_ios: "assets/IMG_0830.png"
-    image_path_android: "assets/IMG_0830.png"
+    image_path_ios: "assets/images/01.png"
+    image_path_android: "assets/images/01.png"
     min_sdk_android: 16 # android min sdk min:16, default 21
     web:
         generate: true
-        image_path: "assets/IMG_0830.png"
+        image_path: "assets/images/01.png"
         background_color: "#hexcode"
         theme_color: "#hexcode"
     windows:
         generate: true
-        image_path: "assets/IMG_0830.png"
+        image_path: "assets/images/01.png"
         icon_size: 48 # min:48, max:256, default: 48
     macos:
         generate: true
-        image_path: "assets/IMG_0830.png"
+        image_path: "assets/images/01.png"
 
 dev_dependencies:
   flutter_launcher_icons: "^0.11.0"
