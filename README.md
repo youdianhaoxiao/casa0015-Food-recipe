@@ -1,32 +1,19 @@
-# FlavorFuse App
-The app is designed to provide personalized recipe suggestions based on the ingredients and tools users have. Users can scroll to access the top five most popular and highest-rated recipes on the main screen. Additionally, the app includes a search feature where users can look for specific recipes, view detailed ingredient quantities, and step-by-step instructions.
+# 👚ClimaCloset App
+As the name suggests, the app is a visualized, high-precision, intelligent weather APP. The most highlight of the app is designed to provide clothes suggestions based on the current and 3-hour forecast weather.
 
 
-## Features
-
-Use this section to show us what your Mobile App is about.   Include a Screenshot to the App, link to the various frameworks you've used. Include your presentation video here that shows off your Mobile App.   Emojis are also fun to include 📱 😄
-
-Look at some other Flutter Apps online and see how they use there README File.  Good examples are:
-
-- https://github.com/miickel/flutter_particle_clock
-- https://github.com/Tarikul711/flutter-food-delivery-app-ui    
-- https://github.com/mohak1283/Instagram-Clone
-
-
-The app is a visualized, high-precision, intelligent weather APP.
-
-## Features
+## 💡Feature Highlights💡
 - Show the real-time current weather information
   - Hourly forecast weather
   - Real-time air quality
+- Show the global 3-day daily forecast weather
+- Search by city name to get weather information
+- Get information for current user location
 - Gives out clothes adviser
   - Cloud
   - Wind
   - Rain
   - Temperature
-- Show the global 7-day daily forecast weather
-- Search by city name to get weather information
-- Get information for current user location
 - Weather map overlayer options
   - precipitation
   - wind
@@ -34,21 +21,21 @@ The app is a visualized, high-precision, intelligent weather APP.
   - clouds
   - temperature
 
-## Screenshots
+## 📱Screenshots
 
 ### Main Screen
 
-#### City information widget
+#### 🌆City information widget
 
 
-#### Hourly Weather & Air Quality of the day & 3-day daily forecast
+#### ☁️Hourly Weather & Air Quality of the day & 3-day daily forecast
 
 
 
 
 ### Clothes Adiviser
 
-### Weather Map
+### 🗺️Weather Map
 
 
 ## Demo:
