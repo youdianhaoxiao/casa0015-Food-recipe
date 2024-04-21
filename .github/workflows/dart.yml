@@ -3,11 +3,11 @@ name: Flutter Build and Upload Android APK
 on:
   push:                 
     branches: [ main ]
-#   workflow_dispatch:    
-#     inputs:
-#       version:
-#         description: 'Version'
-#         required: true
+  workflow_dispatch:    
+    inputs:
+      version:
+        description: 'Version'
+        required: true
 
 # defaults:  
 #   run:
