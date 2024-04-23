@@ -9,9 +9,9 @@ on:
         description: 'Version'
         required: true
 
-# defaults:  
-#   run:
-#     working-directory: ./weather_adviser
+defaults:  
+  run:
+    working-directory: ./weather_adviser
 
 jobs:
   build:
@@ -63,17 +63,17 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: flutter-apk
-          path: build/app/outputs/flutter-apk/*.apk
+          path: /weather_adviser/build/app/outputs/flutter-apk/*.apk
 
       - name: Save APPBUNDLE to Artifacts
         uses: actions/upload-artifact@v2
         with:
           name: flutter-appbundle
-          path: build/app/outputs/bundle/release/*.aab
+          path: /weather_adviser/build/app/outputs/bundle/release/*.aab
 
       - name: Create Github Release for auto trigger
         if: ${{ github.event_name == 'push' }}
         uses: ncipollo/release-action@v1
         with:
-          artifacts: "build/app/outputs/bundle/release/*.aab,build/app/outputs/flutter-apk/*.apk"
+          artifacts: "/weather_adviser/build/app/outputs/bundle/release/*.aab,/weather_adviser/build/app/outputs/flutter-apk/*.apk"
           tag: ${{ env.TAG_VERSION }}
