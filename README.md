@@ -47,8 +47,14 @@ https://youtu.be/GsLXJpKZ9So
 
 #### 1. [Setup Flutter](https://flutter.io/setup/)
 
+#### 2. Clone the repo
 
-#### 2. Add API Keys
+```sh
+$ git@github.com:youdianhaoxiao/casa0015-WeatherAdviser.git
+$ cd weather_adviser/
+
+
+#### 3. Add API Keys
 1. https://www.weatherapi.com/
 2. https://openweathermap.org/
 3. https://developers.google.com/maps/apis-by-platform
