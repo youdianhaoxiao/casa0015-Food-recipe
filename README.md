@@ -40,6 +40,7 @@ As the name suggests, the app is a visualized, high-precision, intelligent weath
 <img width="400" alt="image" src="https://github.com/youdianhaoxiao/casa0015-WeatherAdviser/blob/main/screenshot/temp.png"> 
 
 ## Demo
+[![IMAGE ALT TEXT](https://github.com/youdianhaoxiao/casa0015-WeatherAdviser/assets/146217421/6447afa7-4d42-4f71-ab7c-002a9629ff1b)](https://www.youtube.com/watch?v=GsLXJpKZ9So "Video Title")
 
 https://youtu.be/GsLXJpKZ9So
 
