@@ -41,7 +41,7 @@ As the name suggests, the app is a visualized, high-precision, intelligent weath
 
 ## Demo
 
-https://youtu.be/GsLXJpKZ9So
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/GsLXJpKZ9So.jpg)](https://youtu.be/GsLXJpKZ9So)
 
 ## Get Started
 
