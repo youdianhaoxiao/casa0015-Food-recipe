@@ -42,21 +42,14 @@ As the name suggests, the app is a visualized, high-precision, intelligent weath
 ## Demo
 
 
-https://github.com/youdianhaoxiao/casa0015-WeatherAdviser/assets/146217421/04963b5c-7786-42af-bb5e-ec122378731a
-
 
 
 ## Get Started
 
 #### 1. [Setup Flutter](https://flutter.io/setup/)
 
-#### 2. Clone the repo
 
-```sh
-$ git clone https://github.com/Naomi1122/casa0015-flutter-weather-app.git
-$ cd weather_Adviser/
-```
-#### 3. Add API Keys
+#### 2. Add API Keys
 1. https://www.weatherapi.com/
 2. https://openweathermap.org/
 3. https://developers.google.com/maps/apis-by-platform
